@@ -3,6 +3,8 @@ import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import referaiImg from "/images/referai.png";
+import bunquetBuddyImg from "/images/bunquet_buddy.png";
+import spotisightImg from "/images/spotisight.png";
 
 
 function Section({ id, title, children }) {
@@ -29,9 +31,23 @@ const projects = [
   {
     title: "REFERAI",
     description:
-      "Innovative tool that uses AI to analyze soccer plays from multiple angles and determine whether a play is a foul and/or deserves a card.",
+      "AI-powered tool that analyzes soccer plays from multiple angles to determine fouls and card-worthy actions.",
     image: referaiImg,
     link: "https://github.com/RefereeAI/referai",
+  },
+  {
+    title: "BANQUETBUDDY",
+    description:
+      "Django web app for catering management that connects individuals, employers, and catering services.",
+    image: bunquetBuddyImg,
+    link: "https://github.com/ISPP-GRUPO-8/BANQUETBUDDY",
+  },
+  {
+    title: "SpotiSight",
+    description:
+      "React app that uses the Spotify API to display user stats and offers interactive music-related games.",
+    image: spotisightImg,
+    link: "https://github.com/juamarcan8/SpotiSight2",
   },
 ];
 

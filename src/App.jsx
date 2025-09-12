@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { HiOutlineMail } from "react-icons/hi";
 import referaiImg from "/images/referai.png";
-import bunquetBuddyImg from "/images/bunquet_buddy.png";
+import bunquetBuddyImg from "/images/banquetbuddy.png";
 import spotisightImg from "/images/spotisight.png";
 
 
